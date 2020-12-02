@@ -1,0 +1,359 @@
+@media screen and (max-width: 1450px){
+    .our-project {
+        .slider-interior {
+            li {
+                .top {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1152px){
+    .our-designer {
+        .designers {
+            .designers-our {
+                p {
+                    &::after {
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1024px){
+    .burger {
+        display: block;
+    }
+
+    .main-header {
+        padding: 10px 0;
+
+        .main-header-nav {
+            justify-content: space-between;
+
+            .logo {
+                margin: 0;
+            }
+
+            .site-list {
+                z-index: 2;
+                display: none;
+                flex-direction: column;
+                justify-content: center;
+                position: fixed;
+                height: 100vh;
+                max-width: 100%;
+                width: 100%;
+                top: 0;
+                right: 0;
+                left: 0;
+                padding: 0 15px;
+                margin-left: 0;
+                text-align: center;
+                background: black;
+                overflow-x: hidden;
+                overflow-y: auto;
+
+                li {
+                    max-width: none;
+                    margin: 0 auto;
+                    padding: 10px 0;
+                }
+            }
+
+            .header-right {
+                display: flex;
+            }
+        }
+    }
+
+    .pahu-design {
+        .pahu-design-slider {
+            .slick-prev {
+                width: 45px;
+                height: 45px;
+
+                left: 10px;
+
+                &::before {
+                    top: 17px;
+                    left: 15px;
+                }
+
+                &::after {
+                    top: 23px;
+                    left: 15px;
+                }
+            }
+
+            .slick-next {
+                width: 45px;
+                height: 45px;
+
+                right: 10px;
+
+                &::before {
+                    top: 17px;
+                    left: 17px;
+                }
+
+                &::after {
+                    top: 23px;
+                    left: 17px;
+                }
+            }
+        }
+    }
+
+    .why-us-wrapper {
+        flex-direction: column;
+        align-items: center;
+        .img {
+            display: none;
+        }
+        .advantages-left {
+            max-width: 400px;
+            width: 100%;
+            .advantages-top-wrapper {
+                flex-direction: row-reverse;
+                .advantages-left-top {
+                    text-align: unset;
+                }
+                img {
+                    margin: 30px 36px 0 10px;
+                }
+            }
+            .advantages-bottom-wrapper {
+                flex-direction: row-reverse;
+                .advantages-left-bottom {
+                    text-align: unset;
+                    margin-left: 35px;
+                }
+                img {
+                    margin-right: 17px;
+                }
+            }
+        }
+        .advantages-right {
+            .advantages-top-wrapper {
+                margin: 0;
+                .advantages-right-top {
+                    margin-left: 35px;
+                }
+            }
+            img {
+                margin-left: 15px;
+            }
+            .advantages-bottom-wrapper {
+                img {
+                    margin-top: 0;
+                }
+                .advantages-right-bottom {
+                    margin-left: 35px;
+                    h3 {
+                        margin-top: 0;
+                    }
+
+                }
+            }
+        }
+    }
+    
+    .our-production {
+        .production-row {
+            flex-direction: column;
+            align-items: center;
+            a {
+                width: 100%;
+            }
+            .production-item {
+                width: 100%;
+                &.production-item-blue {
+                    p {
+                        margin: 75px 0 0 93px;
+                    }
+                }
+                &.production-item-brown {
+                    width: 100%;
+                    max-width: 1024px;
+                    p {
+                        margin: 75px 0 0 93px;
+                    }
+                }
+            }
+            .production-pic-small {
+                display: none;
+            }
+        }
+    }
+    .our-designer {
+        .designers {
+            flex-wrap: wrap;
+            .designers-our {
+                p {
+                    &::after {
+                        width: 170px;
+                    }
+                }
+            }
+        }
+    }
+    .our-blog {
+        ul {
+            li {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .footer {
+        .about-us {
+            flex-direction: column;
+            align-items: center;
+            div {
+                margin-left: 0;
+
+                &.contacts {
+                    margin-left: 10px;
+                }
+                &.mail {
+                    margin-left: 83px;
+                }
+            }
+        }
+        .about-us-bottom {
+            flex-direction: column;
+            align-items: center;
+
+            .our-social {
+                margin-left: 25px;
+            }
+
+            .newsletter {
+                margin-left: 135px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 854px){
+    .pahu-design {
+        .pahu-design-slider {
+            li {
+                .pahu-design-intro {
+                    strong {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        .about-us {
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .about-us-bottom {
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    }
+}
+@media screen and (max-width: 720px){
+    .pahu-design {
+        .pahu-design-slider {
+            li {
+                img {
+                    object-fit: cover;
+                }
+                .pahu-design-intro {
+                    strong {
+                        font-size: 25px;
+                        line-height: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .why-us {
+        .why-us-wrapper {
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+    .our-production {
+        .production-row {
+            font-size: 15px;
+            .production-item {
+                &.production-item-blue {
+                    p {
+                        margin: 75px 0 0 29px;
+                    }
+                }
+                &.production-item-brown {
+                    p {
+                        margin: 75px 0 0 29px;
+                    }
+                }
+                p {
+                    margin: 75px 0 0 29px;
+                }
+            }
+        }
+    }
+    .our-designer {
+        .designers-our {
+            img {
+                object-fit: cover;
+            }
+        }
+    }
+    .footer {
+        .about-us {
+            div.mail {
+                margin-left: 0;
+
+                max-width: 236px;
+            }
+        }
+        .about-us-bottom {
+            flex-direction: column;
+            align-items: center;
+            .newsletter {
+                width: 250px;
+                margin-left: 0;
+                form {
+                    p {
+                        input {
+                            max-width: 270px;
+                        }
+                        button {
+                            left: 220px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 500px){
+    .title {
+        font-size: 30px;
+    }
+    .pahu-design {
+        .pahu-design-slider {
+            li {
+                .pahu-design-intro {
+                    .pahu-title {
+                        font-size: 17px;
+                    }
+                    strong {
+                        font-size: 15px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
